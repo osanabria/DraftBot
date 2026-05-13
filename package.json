@@ -1,0 +1,28 @@
+{
+  "name": "draftbot",
+  "version": "1.0.0",
+  "description": "discord bot for drafts",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osanabria/DraftBot.git"
+  },
+  "author": "osmin sanabria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osanabria/DraftBot/issues"
+  },
+  "homepage": "https://github.com/osanabria/DraftBot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.6.1",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
